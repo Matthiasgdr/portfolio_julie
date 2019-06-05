@@ -17,6 +17,6 @@ import fullpage from 'fullpage.js';
 
 // Initializing it
 var fullPageInstance = new fullpage('.fullpage', {
-    navigation: true,
+    navigation: false,
     sectionsColor:['transparent', 'transparent', 'transparent', 'transparent']
 });
