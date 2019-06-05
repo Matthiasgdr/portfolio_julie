@@ -1,56 +1,95 @@
-body{
-    overflow: hidden;
-}
 .menu-hamburger
     position: fixed
+    z-index: 5
     top: 20px
     left: 20px
     img
         width: 35px
         height 35px
-section
-    position relative
-    width: 100%
-    height 100vh
-.first-page
-    .background
-        position absolute
-        z-index -1
-        width 100%
+.index
+    section
+        position relative
+        width: 100%
         height 100vh
-        display flex
-        justify-content center
-        align-items center
-        .losange
-            width 25vw
-            height 25vw
-            border: 4vw #1e1e1e solid
-            transform rotate(45deg)
-            transform-origin center
-            animation: bounce 10s infinite
-    .me
+        .background
+            position absolute
+            z-index -3
+            width 100%
+            height 100vh
+    .first-page
+        .background
+            display flex
+            justify-content center
+            align-items center
+            .losange
+                width 25vw
+                height 25vw
+                border: 4vw #1e1e1e solid
+                transform rotate(45deg)
+                transform-origin center
+                animation: bounce 10s infinite
+        .me
+            display flex
+            flex-direction: column
+            justify-content center
+            align-items center
+            width 100%
+            height 100vh
+            h1
+                font-size: 40px
+            h2
+                font-size: 30px
+            .seework
+                transform: translateY(10vw)
+                font-size: 20px
+                display flex
+                align-items center
+                justify-content center
+                flex-direction: column
+                img 
+                    margin: 10px 0 0 0
+
+    .project
         display flex
         flex-direction: column
-        justify-content center
         align-items center
-        width 100%
-        height 100vh
-        h1
-            font-size: 40px
-        h2
-            font-size: 30px
-        .seework
-            transform: translateY(10vw)
-            font-size: 20px
+        .title
+            margin: 100px 0 0 0
             display flex
-            align-items center
             justify-content center
-            flex-direction: column
-            img 
-                margin: 10px 0 0 0
-.js-canvas{
-    position:absolute;
-    height:100vh;
-    width:100%; 
-    z-index:-2;
-}   
+            align-items center
+            h1
+                font-size: 50px
+                
+            img
+                width: 70px
+                height: 70px
+        .tilted-picture
+            margin: 150px 0 0 0
+            img
+                width: 400px;
+                height: 400px;
+                transform: rotate(45deg)
+
+    .wateronwheels
+        .background
+            background #1e1e1e
+        .title
+            h1
+                color: white
+                span
+                    color: #5c7af3;
+
+    .redlist
+        .background
+            background #1e1e1e
+        .title
+            h1 
+                color: #ff373d
+
+    .js-canvas{
+        position:absolute;
+        height:100vh;
+        width:100%; 
+        z-index:-2;
+    }   

@@ -1,5 +1,0 @@
-class Section {
-    constructor(parent){
-
-    }
-}

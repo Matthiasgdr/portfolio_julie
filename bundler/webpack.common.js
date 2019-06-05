@@ -8,7 +8,12 @@ module.exports = {
     [
         new CopyWebpackPlugin([ { from: 'static' } ]),
         new HtmlWebpackPlugin({
+            filename: 'index.html',
             template: path.resolve(__dirname, '../src/index.html')
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'about-me.html',
+            template: path.resolve(__dirname, '../src/about-me.html')
         }),
     ],
     entry: './src/index.js',
