@@ -32,7 +32,7 @@ let PetalsNotesDetailsX = [windowWidth/45,(windowWidth/45)*6 ,(windowWidth/45)*1
 class petalsDetails{
     constructor(x,y){
         this.x = x 
-        this.y = 30
+        this.y = 0
     }
 }
 
@@ -48,23 +48,7 @@ function createPetals(){
 
 createPetals()
 
-//DELETE PETALS IF PETALS  OUT ---------------------------------->
 
-/*function deletePetalsX(i)
-{
-  if(tabPetals[i].x>windowWidth)
-  {
-    tabPetals.splice(i,1)
-  }
-}
-
-function deletePetalsY(i)
-{
-  if(tabPetals[i].y>windowHeight)
-  {
-    tabPetals.splice(i,1)
-  }
-}*/
 
 
 //LOOP FUNCTION-------------------------------->
@@ -76,7 +60,7 @@ const loop =()=>{
     resize()
 
     timer++
-    if (timer == 60)
+    if (timer == 20)
     {
         createPetals()
         timer =0
@@ -89,16 +73,13 @@ const loop =()=>{
         for (let i = 0 ; i < tabPetals.length; i++){
 
             tabPetals[i].y += 5
-            tabPetals[i].x -= 2
-
-
+           
             context.beginPath()
-            context.fillStyle='#272727'
-            context.moveTo(tabPetals[i].x, tabPetals[i].y)
-            context.lineTo((tabPetals[i].x)*0.5, (tabPetals[i].y)*0.8)
-            context.lineTo((tabPetals[i].x)*1.2, (tabPetals[i].y))
-
+            context.rect(tabPetals[i].x,tabPetals[i].y,10,80)
+            context.fillStyle = "#272727"
             context.fill()
+
+          
             
         }
 
