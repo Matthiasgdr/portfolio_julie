@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic');
+
+water = #A4BEDC
+dark = #1e1e1e
+light = #F4F4F4
+redlist = #D72C26
+jap = #C99E89
 .menu-hamburger
     position: fixed
     z-index: 5
@@ -6,10 +13,109 @@
     img
         width: 35px
         height 35px
+.blue
+    color: water;
 
-        
+.water-on-wheels
+    background: dark
+    color light
+    .title
+        color: light
+    .bandeau
+        color light
+        background water
+    .colors
+        .color
+            &.color-1
+                color water
+            &.color-2
+                color light
+            &.color-3
+                color #404040
 
+.japanese-craft
+    background: light
+    color dark
+    .title
+        color: dark
+    .bandeau
+        color dark
+        background jap
+    .colors
+        .color
+            &.color-1
+                color jap
+            &.color-2
+                color light
+            &.color-3
+                color #262626
+
+
+.red-list
+    background: dark
+    color light
+    .title
+        color: redlist
+    .bandeau
+        color dark
+        background redlist
+    .colors
+        .color
+            &.color-1
+                color redlist
+            &.color-2
+                color light
+            &.color-3
+                color #0E172D
+
+
+
+
+.project-page
+    .bandeau
+        display flex
+        justify-content center
+        align-items center
+        margin 20px 0 0 0
+        .item
+            display flex
+            flex-direction: column
+            align-items center
+            justify-content center
+            padding: 50px
+    .container
+        margin: 0 10vw
+        h2
+            font-family: Open Sans 
+            font-size 20px
+        .title
+            font-size: 50px
+            margin: 100px 0 0 0
+            display flex
+            justify-content center 
+            align-items center 
+            h1
+                margin 0 0 0 15px
+        .presentation
+            margin: 80px 0 0 0
+        .typographie
+            margin: 80px 0 0 0
+            p
+                text-align: center
+                font-size: 65px
+        .colors
+            .colors-panel
+                display flex
+                align-items center
+                justify-content center
+                .color
+                    display flex
+                    align-items center
+                    flex-direction: column
+                    padding 100px
+                
 .about
+    font-family: Open Sans
     .container
         display flex
         align-items center
@@ -32,6 +138,7 @@
                 p
                     white-space: pre-line
 .index
+    font-family: Open Sans
     section
         position relative
         canvas
@@ -49,7 +156,7 @@
             .losange
                 width 25vw
                 height 25vw
-                border: 4vw #272727 solid
+                border: 4vw dark solid
                 transform rotate(45deg)
                 transform-origin center
                 animation: bounce 10s infinite
@@ -64,6 +171,12 @@
                 font-size: 40px
             h2
                 font-size: 30px
+            .about
+                margin 10px 0 0 0
+                border-bottom: 1px solid dark
+                a
+                    text-decoration: none
+                    color: inherit
             .seework
                 transform: translateY(10vw)
                 font-size: 20px
@@ -83,6 +196,7 @@
             padding: 100px 0 0 0
             .title
                 display flex
+                justify-content center
                 align-items center
                 h1
                     font-size: 50px
@@ -100,6 +214,9 @@
                 img
                     width: 30%;
                     height: 30%;
+                    transition: 0.5s all
+                    &:hover
+                        filter: contrast(50%)
             
 
 
@@ -109,12 +226,10 @@
         .title
             h1
                 color: #F4F4F4
-                span
-                    color: #A4BEDC;
 
     .redlist
         .background
-            background #1e1e1e
+            background dark
         .title
             h1 
                 color: #D72C26

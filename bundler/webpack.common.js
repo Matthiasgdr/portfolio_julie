@@ -12,8 +12,20 @@ module.exports = {
             template: path.resolve(__dirname, '../src/index.html')
         }),
         new HtmlWebpackPlugin({
-            filename: 'about-me.html',
+            filename: 'about-me',
             template: path.resolve(__dirname, '../src/about-me.html')
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'water-on-wheels',
+            template: path.resolve(__dirname, '../src/water-on-wheels.html')
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'japanese-craft',
+            template: path.resolve(__dirname, '../src/japanese-craft.html')
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'red-list',
+            template: path.resolve(__dirname, '../src/red-list.html')
         }),
     ],
     entry: './src/index.js',
