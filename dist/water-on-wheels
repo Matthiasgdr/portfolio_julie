@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link href="style.da5c09425445166b83c2.css" rel="stylesheet"></head>
+<body class="project-page water-on-wheels">
+        <div class="menu-hamburger">
+                <a href="index.html">
+                    <img class="menu-icon" src="images/15251d3fbdce3b5d4251e67de24076d2.svg" alt="Menu">
+                </a>
+            </div>
+    <div class="container">
+        <div class="title">
+            <img src="images/aa5b4cb4b5bcba92752e5db41136989f.png" alt="">
+            <h1><span class="blue">Water</span> On Wheels</h1>
+        </div>
+        <div class="presentation">
+            <h2>Presentation</h2>
+            <p>Here's a little project which I have to do for an internship of UI/UX graphic design. It is a redesign of a fonctionnal website named 'Water On Wheels' which is a blog about environment especially, how to preserve water.</p>
+        </div>
+    </div>
+        <div class="bandeau">
+            <div class="item role">
+                <h3>Role</h3>
+                <p>Designer</p>
+            </div>
+            <div class="item date">
+                <h3>Date</h3>
+                <p>March 2019</p>
+            </div>
+            <div class="item for">
+                <h3>Intership</h3>
+                <p>Project</p>
+            </div>
+        </div>
+    <div class="container">
+        <div class="typographie">
+            <h2>Typographie</h2>
+            <p>Montserrat</p>
+        </div>
+        <div class="colors">
+            <h2>Colors</h2>
+            <div class="colors-panel">
+                <div class="color color-1">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#A4BEDC</p>
+                </div>
+                <div class="color color-2">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#F4F4F4</p>
+                </div>
+                <div class="color color-3">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#404040</p>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <img src="images/8854e4d71caeeeb1db0f5a31c0f28ac4.png" alt="">
+            <img src="images/56ca566a0c8a3099d5ab4dd9c1f50047.png" alt="">
+            <img src="images/a02dc9cbb54806eb2602aed9af5a16a1.png" alt="">
+            <img src="images/0f23da6b8bd716621a0e45de306da694.png" alt="">
+            <img src="images/a0559771a4db9fa9c4cc49b5abebd9b1.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="bundle.da5c09425445166b83c2.js"></script></body>
+    </html>

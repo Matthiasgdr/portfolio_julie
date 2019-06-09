@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link href="style.da5c09425445166b83c2.css" rel="stylesheet"></head>
+<body class="project-page red-list">
+        <div class="menu-hamburger">
+                <a href="index.html">
+                    <img class="menu-icon" src="images/15251d3fbdce3b5d4251e67de24076d2.svg" alt="Menu">
+                </a>
+            </div>
+    <div class="container">
+        <div class="title">
+            <img src="images/0883d1712b0d6d5759518b928cfc9f2d.png" alt="">
+            <h1>RED LIST</h1>
+        </div>
+        <div class="presentation">
+            <h2>Presentation</h2>
+            <p>Red List is a fictionnal website we created during a school project. We created a website using an API we chosed. Here, we chose to create a map showing all theatened animals by countries.</p>
+        </div>
+    </div>
+        <div class="bandeau">
+            <div class="item role">
+                <h3>Role</h3>
+                <p>Designer</p>
+            </div>
+            <div class="item date">
+                <h3>Date</h3>
+                <p>March 2019</p>
+            </div>
+            <div class="item for">
+                <h3>Intership</h3>
+                <p>Project</p>
+            </div>
+        </div>
+    <div class="container">
+        <div class="typographie">
+            <h2>Typographie</h2>
+            <p>Roboto</p>
+        </div>
+        <div class="colors">
+            <h2>Colors</h2>
+            <div class="colors-panel">
+                <div class="color color-1">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#A4BEDC</p>
+                </div>
+                <div class="color color-2">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#F4F4F4</p>
+                </div>
+                <div class="color color-3">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#404040</p>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <img src="images/0b2d2af1af0012739f2b8eb6030fdd25.png" alt="">
+            <img src="images/007d239c83a534e56038d096d7339643.png" alt="">
+            <img src="images/3062f38316c4dd93d5a924e7be4da96a.png" alt="">
+            <img src="images/190e9bfd5db0cde289f2b4b509f5d87b.png" alt="">
+            <img src="images/cb5277f35a5418feb678c01a4e166c9d.png" alt="">
+            <img src="images/57556ae00e44f0f87f467f2d1885a94d.png" alt="">
+            <img src="images/488ffc92d4014f7a5f89d4278f8fe29d.png" alt="">
+            <img src="images/70c443eb75fe7732d6000569d16c6782.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="bundle.da5c09425445166b83c2.js"></script></body>
+    </html>

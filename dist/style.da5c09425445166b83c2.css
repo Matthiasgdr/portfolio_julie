@@ -1,0 +1,378 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,italic,700,700italic,900,900italic);
+/* http://meyerweb.com/eric/tools/css/reset/
+   v4.0 | 20180602
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.menu-hamburger {
+  position: fixed;
+  z-index: 5;
+  top: 20px;
+  left: 20px;
+}
+.menu-hamburger img {
+  width: 35px;
+  height: 35px;
+  transform: rotate(90deg);
+}
+.blue {
+  color: #a4bedc;
+}
+.water-on-wheels {
+  background: #1e1e1e;
+  color: #f4f4f4;
+}
+.water-on-wheels .title {
+  color: #f4f4f4;
+}
+.water-on-wheels .bandeau {
+  color: #1e1e1e;
+  background: #a4bedc;
+}
+.water-on-wheels .typographie p {
+  font-family: Montserrat;
+}
+.water-on-wheels .colors .color.color-1 {
+  color: #a4bedc;
+}
+.water-on-wheels .colors .color.color-2 {
+  color: #f4f4f4;
+}
+.water-on-wheels .colors .color.color-3 {
+  color: #404040;
+}
+.japanese-craft {
+  background: #f4f4f4;
+  color: #1e1e1e;
+}
+.japanese-craft .title {
+  color: #1e1e1e;
+}
+.japanese-craft .bandeau {
+  color: #1e1e1e;
+  background: #c99e89;
+}
+.japanese-craft .typographie p {
+  font-family: Playfair Display;
+}
+.japanese-craft .colors .color.color-1 {
+  color: #c99e89;
+}
+.japanese-craft .colors .color.color-2 {
+  color: #1e1e1e;
+}
+.japanese-craft .colors .color.color-3 {
+  color: #262626;
+}
+.red-list {
+  background: #1e1e1e;
+  color: #f4f4f4;
+}
+.red-list .menu-hamburger img {
+  fill: #fff;
+}
+.red-list .title {
+  color: #d72c26;
+  font-weight: bold;
+}
+.red-list .bandeau {
+  color: #1e1e1e;
+  background: #d72c26;
+}
+.red-list .typographie p {
+  font-family: Roboto;
+}
+.red-list .colors .color.color-1 {
+  color: #d72c26;
+}
+.red-list .colors .color.color-2 {
+  color: #f4f4f4;
+}
+.red-list .colors .color.color-3 {
+  color: #0e172d;
+}
+.project-page {
+  font-family: Open Sans;
+}
+.project-page .bandeau {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+.project-page .bandeau .role h3 {
+  font-weight: normal;
+}
+.project-page .bandeau .date h3 {
+  font-weight: normal;
+}
+.project-page .bandeau .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5vw;
+}
+.project-page .container {
+  margin: 0 10vw;
+}
+.project-page .container h2 {
+  margin: 10px 0;
+  font-family: Open Sans;
+  font-size: 36px;
+}
+.project-page .container .title {
+  font-size: 50px;
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-page .container .title h1 {
+  margin: 0 0 0 15px;
+}
+.project-page .container .presentation {
+  margin: 80px 0 0 0;
+}
+.project-page .container .presentation p {
+  font-size: 26px;
+}
+.project-page .container .typographie {
+  margin: 80px 0 0 0;
+}
+.project-page .container .typographie p {
+  text-align: center;
+  font-size: 65px;
+}
+.project-page .container .colors .colors-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-page .container .colors .colors-panel .color {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 5vw;
+}
+.project-page .container .colors .colors-panel .color img {
+  width: 50px;
+  height: auto;
+  margin: 0 0 20px 0;
+}
+.project-page .container .colors .colors-panel .color p {
+  font-size: 26px;
+}
+.project-page .container .screens img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 30px 0;
+}
+.about {
+  font-family: Open Sans;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.about .container h1 {
+  font-size: 80px;
+}
+.about .container .presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 0 0;
+  max-width: 1080px;
+}
+.about .container .presentation .img-container img {
+  width: 500px;
+  height: auto;
+  transform: rotate(90deg);
+}
+.about .container .presentation .text {
+  font-size: 38px;
+  line-height: 42px;
+}
+.about .container .presentation .text p {
+  white-space: pre-line;
+}
+.index {
+  font-family: Open Sans;
+}
+.index section {
+  position: relative;
+}
+.index section canvas {
+  z-index: -10;
+}
+.index section .background {
+  position: absolute;
+  z-index: -3;
+  width: 100%;
+  height: 100vh;
+}
+.index .first-page .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .first-page .background .losange {
+  width: 25vw;
+  height: 25vw;
+  border: 4vw #1e1e1e solid;
+  transform: rotate(45deg);
+  transform-origin: center;
+  animation: bounce 10s infinite;
+}
+.index .first-page .me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.index .first-page .me h1 {
+  font-size: 40px;
+}
+.index .first-page .me h2 {
+  font-size: 30px;
+}
+.index .first-page .me .about {
+  margin: 10px 0 0 0;
+  border-bottom: 1px solid #1e1e1e;
+}
+.index .first-page .me .about a {
+  text-decoration: none;
+  color: inherit;
+}
+.index .first-page .me .seework {
+  transform: translateY(10vw);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.index .first-page .me .seework img {
+  margin: 10px 0 0 0;
+}
+.index .project .container-pres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+.index .project .container-pres .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .project .container-pres .title h1 {
+  font-size: 50px;
+}
+.index .project .container-pres .title img {
+  width: 10%;
+  height: 10%;
+  padding-right: 10px;
+}
+.index .project .tilted-picture {
+  margin: 150px 0 0 0;
+}
+.index .project .tilted-picture a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .project .tilted-picture a img {
+  width: 30%;
+  height: 30%;
+  transition: 0.5s all;
+}
+.index .project .tilted-picture a img:hover {
+  filter: contrast(50%);
+}
+.index .wateronwheels .background {
+  background: #272727;
+}
+.index .wateronwheels .title h1 {
+  color: #f4f4f4;
+}
+.index .redlist .background {
+  background: #1e1e1e;
+}
+.index .redlist .title h1 {
+  color: #d72c26;
+}
+.index .redlist .title img {
+  width: 80px !important;
+  height: 80px !important;
+}
+.index .js-canvas {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+}
+
+
+/*# sourceMappingURL=style.da5c09425445166b83c2.css.map*/

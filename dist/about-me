@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Julie Chen - Me</title>
-</head>
+<link href="style.da5c09425445166b83c2.css" rel="stylesheet"></head>
 <body class="about"> 
     <div class="menu-hamburger">
         <a href="index.html">
-            <img class="menu-icon" src="../static/arrow-down.svg" alt="Menu">
+            <img class="menu-icon" src="images/15251d3fbdce3b5d4251e67de24076d2.svg" alt="Menu">
         </a>
     </div>
     <div class="container">
         <h1>About me</h1>
         <div class="presentation">
             <div class="img-container">
-                <img src="../static/moi.jpg" alt="">
+                <img src="images/371cba94c2b37e61f0f681c0888759ed.jpg" alt="">
             </div>
             <div class="text">
                 <p>Hello, i'm Julie Chen !</p>
@@ -29,5 +29,5 @@
             </div>
         </div>
     </div>
-</body>
+<script type="text/javascript" src="bundle.da5c09425445166b83c2.js"></script></body>
 </html>

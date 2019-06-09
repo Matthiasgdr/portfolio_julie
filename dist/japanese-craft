@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link href="style.da5c09425445166b83c2.css" rel="stylesheet"></head>
+<body class="project-page japanese-craft">
+        <div class="menu-hamburger">
+                <a href="index.html">
+                    <img class="menu-icon" src="images/15251d3fbdce3b5d4251e67de24076d2.svg" alt="Menu">
+                </a>
+            </div>
+    <div class="container">
+        <div class="title">
+            <img src="images/57e4966fa8146cebd7a0d0cb34fb5a22.png" alt="">
+            <h1>Japanese Craft - Arita Ware</h1>
+        </div>
+        <div class="presentation">
+            <h2>Presentation</h2>
+            <p>Japanese Craft - Arita Ware is a school project I have done with my group on the first week of my second year. We chosed a kickstarter project which is porcelain created by a great Japanese chief, and we created a website for this kickstarter</p>
+        </div>
+    </div>
+        <div class="bandeau">
+            <div class="item role">
+                <h3>Role</h3>
+                <p>Designer</p>
+            </div>
+            <div class="item date">
+                <h3>Date</h3>
+                <p>March 2019</p>
+            </div>
+            <div class="item for">
+                <h3>School</h3>
+                <p>Project</p>
+            </div>
+        </div>
+    <div class="container">
+        <div class="typographie">
+            <h2>Typographie</h2>
+            <p>Playfair Display</p>
+        </div>
+        <div class="colors">
+            <h2>Colors</h2>
+            <div class="colors-panel">
+                <div class="color color-1">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#C99E89</p>
+                </div>
+                <div class="color color-2">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#F4F4F4</p>
+                </div>
+                <div class="color color-3">
+                    <img src="images/15251d3fbdce3b5d4251e67de24076d2.svg">
+                    <p>#262626</p>
+                </div>
+            </div>
+        </div>
+        <div class="screens">
+            <img src="images/876226938fad5d72c900b719fcc70e75.png" alt="">
+            <img src="images/4234ab037b20764975edd59c3dcd274d.png" alt="">
+            <img src="images/c44b74a6e40150544bbf6bc1a58dd660.png" alt="">
+            <img src="images/3bf45768b32af9c4adac99a4303e1bd4.png" alt="">
+            <img src="images/c44b74a6e40150544bbf6bc1a58dd660.png" alt="">
+        </div>
+    </div>
+    <script type="text/javascript" src="bundle.da5c09425445166b83c2.js"></script></body>
+    </html>
