@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,italic,700,700italic,900,900italic');
 
 water = #A4BEDC
 dark = #1e1e1e
 light = #F4F4F4
 redlist = #D72C26
 jap = #C99E89
+
 .menu-hamburger
     position: fixed
     z-index: 5
@@ -13,6 +17,7 @@ jap = #C99E89
     img
         width: 35px
         height 35px
+        transform: rotate(90deg)
 .blue
     color: water;
 
@@ -22,8 +27,11 @@ jap = #C99E89
     .title
         color: light
     .bandeau
-        color light
+        color dark
         background water
+    .typographie
+        p
+            font-family: Montserrat
     .colors
         .color
             &.color-1
@@ -41,24 +49,33 @@ jap = #C99E89
     .bandeau
         color dark
         background jap
+    .typographie
+        p
+            font-family: Playfair Display
     .colors
         .color
             &.color-1
                 color jap
             &.color-2
-                color light
+                color dark
             &.color-3
                 color #262626
-
 
 .red-list
     background: dark
     color light
+    .menu-hamburger
+        img
+            fill: white
     .title
         color: redlist
+        font-weight: bold
     .bandeau
         color dark
         background redlist
+    .typographie
+        p
+            font-family: Roboto
     .colors
         .color
             &.color-1
@@ -68,26 +85,33 @@ jap = #C99E89
             &.color-3
                 color #0E172D
 
-
-
-
 .project-page
+    font-family: Open Sans
     .bandeau
         display flex
         justify-content center
         align-items center
-        margin 20px 0 0 0
+        margin 50px 0 0 0
+        font-size: 26px
+        font-weight bold
+        .role 
+            h3
+                font-weight normal
+        .date 
+            h3
+                font-weight normal
         .item
             display flex
             flex-direction: column
             align-items center
             justify-content center
-            padding: 50px
+            padding: 50px 5vw
     .container
         margin: 0 10vw
         h2
+            margin: 10px 0
             font-family: Open Sans 
-            font-size 20px
+            font-size 36px
         .title
             font-size: 50px
             margin: 100px 0 0 0
@@ -98,6 +122,8 @@ jap = #C99E89
                 margin 0 0 0 15px
         .presentation
             margin: 80px 0 0 0
+            p
+                font-size: 26px
         .typographie
             margin: 80px 0 0 0
             p
@@ -112,7 +138,18 @@ jap = #C99E89
                     display flex
                     align-items center
                     flex-direction: column
-                    padding 100px
+                    padding 100px 5vw
+                    img
+                        width: 50px
+                        height auto
+                        margin: 0 0 20px 0
+                    p
+                        font-size: 26px
+        .screens
+            img
+                width: 100%
+                height auto
+                margin 0 0 30px 0
                 
 .about
     font-family: Open Sans
@@ -129,12 +166,14 @@ jap = #C99E89
             display flex
             justify-content center
             align-items center
+            max-width 1080px
             .img-container
                 img
                     width: 300px
                     height 600px
             .text
-                font-size: 20px
+                font-size: 38px
+                line-height: 42px
                 p
                     white-space: pre-line
 .index
@@ -205,6 +244,7 @@ jap = #C99E89
                     width: 10%
                     height: 10%
                     padding-right 10px
+
         .tilted-picture
             margin: 150px 0 0 0
             a
@@ -233,6 +273,9 @@ jap = #C99E89
         .title
             h1 
                 color: #D72C26
+            img
+                width 80px!important
+                height 80px!important
 
     .js-canvas{
         position:absolute;
